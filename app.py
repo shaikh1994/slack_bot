@@ -81,6 +81,9 @@ def backgroundworker(text,response_url):
                                             )
     
 
+@app.route('/', methods=['GET'])
+def index():
+    return render_template('index.html')
 
 
 #files_list trigger slash command
