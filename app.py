@@ -19,7 +19,7 @@ from datetime import timedelta as delta
 from datetime import timedelta
 import numexpr
 #FLASK
-from flask import Flask, request, Response
+from flask import Flask, request, Response, render_template
 from threading import Thread #used to make background process work for slackbot
 import json
 import base64
